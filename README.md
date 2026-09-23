@@ -87,25 +87,6 @@ Oracle armazena os dados
 
 <br>
 
-<h3 align="center">Modelo inicial</h3>
-
-Equipe 1 ───────── N Pilotos
-
-Piloto
-├── id
-├── nome
-├── numero
-├── nacionalidade
-├── pontos
-└── equipe
-
-Equipe
-├── id
-├── nome
-└── pais
-
-<br>
-
 <p align="center">
   <img src="./assets/divider.svg" alt="divider" width="100%" />
 </p>
@@ -116,16 +97,15 @@ Equipe
   <tr>
     <th>Etapa</th>
     <th>Conteúdo</th>
-    <th>Status</th>
   </tr>
-  <tr><td align="center">01</td><td>POO — Piloto e Equipe</td><td align="center">Em andamento</td></tr>
-  <tr><td align="center">02</td><td>Oracle e JDBC</td><td align="center">Próximo</td></tr>
-  <tr><td align="center">03</td><td>DAO e CRUD</td><td align="center">Próximo</td></tr>
-  <tr><td align="center">04</td><td>Relacionamentos</td><td align="center">Planejado</td></tr>
-  <tr><td align="center">05</td><td>Spring Boot</td><td align="center">Planejado</td></tr>
-  <tr><td align="center">06</td><td>Service e Controller</td><td align="center">Planejado</td></tr>
-  <tr><td align="center">07</td><td>API REST</td><td align="center">Planejado</td></tr>
-  <tr><td align="center">08</td><td>Front-end</td><td align="center">Planejado</td></tr>
+  <tr><td align="center">01</td><td>POO — Piloto e Equipe</td></tr>
+  <tr><td align="center">02</td><td>Oracle e JDBC</td></tr>
+  <tr><td align="center">03</td><td>DAO e CRUD</td></tr>
+  <tr><td align="center">04</td><td>Relacionamentos</td></tr>
+  <tr><td align="center">05</td><td>Spring Boot</td></tr>
+  <tr><td align="center">06</td><td>Service e Controller</td></tr>
+  <tr><td align="center">07</td><td>API REST</td></tr>
+  <tr><td align="center">08</td><td>Front-end</td></tr>
 </table>
 
 <br>
@@ -159,16 +139,27 @@ Equipe
 <h2 align="center">Organização</h2>
 
 f1-manager-2026/
+
 │
+
 ├── assets/
+
 ├── database/
+
 ├── docs/
+
 └── src/
+
 └── br/com/fiap/f1/
+
 ├── models/
+
 ├── dao/
+
 ├── service/
+
 ├── controller/
+
 └── tests/
 
 <p align="center">
