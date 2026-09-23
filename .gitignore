@@ -3,6 +3,7 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 .kotlin
+f1-manager-2026.iml
 
 ### Eclipse ###
 .apt_generated
