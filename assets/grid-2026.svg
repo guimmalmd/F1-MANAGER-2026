@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Grid de equipes e pilotos da temporada 2026">
+  <defs>
+    <linearGradient id="card" x1="0" x2="1"><stop stop-color="#0c0c0c"/><stop offset="1" stop-color="#171717"/></linearGradient>
+    <style>
+      .title{font:900 48px Arial,Helvetica,sans-serif;fill:#fff}.sub{font:500 18px monospace;fill:#8d8d8d}.team{font:800 25px Arial,Helvetica,sans-serif;fill:#fff}.code{font:900 22px monospace;fill:#e10600}.driver{font:500 18px Arial,Helvetica,sans-serif;fill:#cfcfcf}.card{fill:url(#card);stroke:#2d2d2d;stroke-width:2}.line{fill:#e10600}
+    </style>
+  </defs>
+  <rect width="1600" height="900" rx="30" fill="#050505"/>
+  <rect x="70" y="55" width="7" height="72" rx="3" class="line"/>
+  <text x="100" y="95" class="title">THE 2026 GRID</text>
+  <text x="102" y="125" class="sub">11 equipes • 22 pilotos • base temática para o banco de dados do projeto</text>
+
+  <!-- row 1 -->
+  <g transform="translate(70 175)"><rect class="card" width="450" height="145" rx="18"/><rect class="line" width="8" height="145" rx="4"/><text x="30" y="42" class="code">MER</text><text x="100" y="42" class="team">Mercedes</text><text x="30" y="82" class="driver">George Russell</text><text x="30" y="112" class="driver">Kimi Antonelli</text></g>
+  <g transform="translate(575 175)"><rect class="card" width="450" height="145" rx="18"/><rect class="line" width="8" height="145" rx="4"/><text x="30" y="42" class="code">FER</text><text x="100" y="42" class="team">Ferrari</text><text x="30" y="82" class="driver">Charles Leclerc</text><text x="30" y="112" class="driver">Lewis Hamilton</text></g>
+  <g transform="translate(1080 175)"><rect class="card" width="450" height="145" rx="18"/><rect class="line" width="8" height="145" rx="4"/><text x="30" y="42" class="code">MCL</text><text x="100" y="42" class="team">McLaren</text><text x="30" y="82" class="driver">Lando Norris</text><text x="30" y="112" class="driver">Oscar Piastri</text></g>
+
+  <!-- row 2 -->
+  <g transform="translate(70 355)"><rect class="card" width="450" height="145" rx="18"/><rect class="line" width="8" height="145" rx="4"/><text x="30" y="42" class="code">RBR</text><text x="100" y="42" class="team">Red Bull Racing</text><text x="30" y="82" class="driver">Max Verstappen</text><text x="30" y="112" class="driver">Isack Hadjar</text></g>
+  <g transform="translate(575 355)"><rect class="card" width="450" height="145" rx="18"/><rect class="line" width="8" height="145" rx="4"/><text x="30" y="42" class="code">RB</text><text x="100" y="42" class="team">Racing Bulls</text><text x="30" y="82" class="driver">Liam Lawson</text><text x="30" y="112" class="driver">Arvid Lindblad</text></g>
+  <g transform="translate(1080 355)"><rect class="card" width="450" height="145" rx="18"/><rect class="line" width="8" height="145" rx="4"/><text x="30" y="42" class="code">ALP</text><text x="100" y="42" class="team">Alpine</text><text x="30" y="82" class="driver">Pierre Gasly</text><text x="30" y="112" class="driver">Franco Colapinto</text></g>
+
+  <!-- row 3 -->
+  <g transform="translate(70 535)"><rect class="card" width="450" height="145" rx="18"/><rect class="line" width="8" height="145" rx="4"/><text x="30" y="42" class="code">HAS</text><text x="100" y="42" class="team">Haas F1 Team</text><text x="30" y="82" class="driver">Esteban Ocon</text><text x="30" y="112" class="driver">Oliver Bearman</text></g>
+  <g transform="translate(575 535)"><rect class="card" width="450" height="145" rx="18"/><rect class="line" width="8" height="145" rx="4"/><text x="30" y="42" class="code">AUD</text><text x="100" y="42" class="team">Audi</text><text x="30" y="82" class="driver">Nico Hulkenberg</text><text x="30" y="112" class="driver">Gabriel Bortoleto</text></g>
+  <g transform="translate(1080 535)"><rect class="card" width="450" height="145" rx="18"/><rect class="line" width="8" height="145" rx="4"/><text x="30" y="42" class="code">WIL</text><text x="100" y="42" class="team">Williams</text><text x="30" y="82" class="driver">Carlos Sainz</text><text x="30" y="112" class="driver">Alexander Albon</text></g>
+
+  <!-- row 4 -->
+  <g transform="translate(320 715)"><rect class="card" width="450" height="145" rx="18"/><rect class="line" width="8" height="145" rx="4"/><text x="30" y="42" class="code">AST</text><text x="100" y="42" class="team">Aston Martin</text><text x="30" y="82" class="driver">Fernando Alonso</text><text x="30" y="112" class="driver">Lance Stroll</text></g>
+  <g transform="translate(830 715)"><rect class="card" width="450" height="145" rx="18"/><rect class="line" width="8" height="145" rx="4"/><text x="30" y="42" class="code">CAD</text><text x="100" y="42" class="team">Cadillac</text><text x="30" y="82" class="driver">Sergio Perez</text><text x="30" y="112" class="driver">Valtteri Bottas</text></g>
+</svg>

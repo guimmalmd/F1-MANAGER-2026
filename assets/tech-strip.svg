@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1560 230" role="img" aria-label="Tecnologias usadas no projeto">
+  <defs>
+    <linearGradient id="panel" x1="0" x2="1"><stop offset="0" stop-color="#090909"/><stop offset="1" stop-color="#151515"/></linearGradient>
+    <style>
+      .box{fill:url(#panel);stroke:#2c2c2c;stroke-width:2}.tag{font-family:Arial,Helvetica,sans-serif;font-size:18px;font-weight:800;fill:#e10600;letter-spacing:2px}.name{font-family:Arial,Helvetica,sans-serif;font-size:17px;font-weight:700;fill:#fff}.icon{font-family:Arial,Helvetica,sans-serif;font-size:30px;font-weight:900;fill:#fff}.sub{font-family:monospace;font-size:11px;fill:#8e8e8e}
+    </style>
+  </defs>
+  <rect width="1560" height="230" rx="26" fill="#050505"/>
+  <text x="55" y="48" class="tag">TECH GARAGE</text>
+  <text x="55" y="75" class="sub">ferramentas que entram na pista conforme o projeto evolui</text>
+
+  <g transform="translate(48 100)">
+    <!-- Java -->
+    <g transform="translate(0 0)"><rect class="box" width="150" height="90" rx="16"/>
+      <path d="M20 28 C31 20 21 15 31 9 M25 35 C39 28 26 22 38 14" fill="none" stroke="#e10600" stroke-width="3" stroke-linecap="round"/>
+      <path d="M17 42 H48 V53 C48 65 19 65 19 53 V42 M48 45 H54 C60 45 60 55 52 56" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+      <text class="name" x="65" y="38">Java</text><text class="sub" x="65" y="60">POO / JDBC</text>
+    </g>
+    <!-- IntelliJ -->
+    <g transform="translate(162 0)"><rect class="box" width="150" height="90" rx="16"/><rect x="17" y="20" width="42" height="42" rx="7" fill="#fff"/><rect x="22" y="25" width="32" height="32" rx="4" fill="#111"/><text x="28" y="48" font-family="Arial" font-size="17" font-weight="900" fill="#fff">IJ</text><text class="name" x="68" y="38">IntelliJ</text><text class="sub" x="68" y="60">IDE</text></g>
+    <!-- Oracle -->
+    <g transform="translate(324 0)"><rect class="box" width="150" height="90" rx="16"/><ellipse cx="34" cy="36" rx="22" ry="11" fill="none" stroke="#e10600" stroke-width="4"/><text class="name" x="66" y="38">Oracle</text><text class="sub" x="66" y="60">Database</text></g>
+    <!-- Spring -->
+    <g transform="translate(486 0)"><rect class="box" width="150" height="90" rx="16"/><circle cx="34" cy="36" r="20" fill="#fff"/><text x="24" y="45" font-family="Arial" font-size="25" font-weight="900" fill="#111">S</text><text class="name" x="66" y="38">Spring</text><text class="sub" x="66" y="60">Boot / REST</text></g>
+    <!-- Git -->
+    <g transform="translate(648 0)"><rect class="box" width="150" height="90" rx="16"/><path d="M34 17 L54 37 L34 57 L14 37 Z" fill="none" stroke="#e10600" stroke-width="3"/><circle cx="26" cy="29" r="3" fill="#fff"/><circle cx="41" cy="44" r="3" fill="#fff"/><path d="M26 29 L41 44 M26 29 H42" stroke="#fff" stroke-width="2"/><text class="name" x="68" y="38">Git</text><text class="sub" x="68" y="60">versioning</text></g>
+    <!-- GitHub -->
+    <g transform="translate(810 0)"><rect class="box" width="150" height="90" rx="16"/><text class="icon" x="15" y="47">GH</text><text class="name" x="70" y="38">GitHub</text><text class="sub" x="70" y="60">repository</text></g>
+    <!-- HTML -->
+    <g transform="translate(972 0)"><rect class="box" width="150" height="90" rx="16"/><text class="icon" x="12" y="47">&lt;/&gt;</text><text class="name" x="72" y="38">HTML</text><text class="sub" x="72" y="60">front-end</text></g>
+    <!-- CSS -->
+    <g transform="translate(1134 0)"><rect class="box" width="150" height="90" rx="16"/><text class="icon" x="16" y="47">#</text><text class="name" x="62" y="38">CSS</text><text class="sub" x="62" y="60">interface</text></g>
+    <!-- JS -->
+    <g transform="translate(1296 0)"><rect class="box" width="150" height="90" rx="16"/><text class="icon" x="15" y="47">JS</text><text class="name" x="68" y="38">JavaScript</text><text class="sub" x="68" y="60">fetch / UI</text></g>
+  </g>
+</svg>
