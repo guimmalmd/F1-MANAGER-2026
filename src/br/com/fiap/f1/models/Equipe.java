@@ -1,13 +1,11 @@
 package br.com.fiap.f1.models;
 
 public class Equipe {
-    //ATRIBUTOS
+
     private int id;
     private String nome;
     private String pais;
 
-
-    //GETTERS E SETTERS
     public int getId() {
         return id;
     }
