@@ -2,12 +2,15 @@ package br.com.fiap.f1.models;
 
 public class Piloto {
 
+    //ATRIUTOS
     private String nome;
     private int numero;
     private String equipe;
     private String nacionalidade;
     private double pontos;
 
+
+    //GETTERS E SETTERS
     public String getNome() {
         return nome;
     }
